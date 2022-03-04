@@ -1,0 +1,32 @@
+.volunteering-container{
+    min-height: 100vh;
+    padding: 12vh 0;
+    background-color: #071E3D;
+}
+
+.volunteer-cards-container{
+    margin-top: 50px;
+}
+
+.volunteer-card-body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    margin: 24px;
+}
+
+.volunteer-card-content-cont{
+    margin-left: 50px;
+}
+.volunteer-card-content-cont h3{
+    font-weight: 500;
+}
+
+@media (max-width: 500px) {
+    .volunteer-card-body{
+        
+        margin: 24px 5px;
+    }
+    
+}
