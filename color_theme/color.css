@@ -1,0 +1,36 @@
+.color-change-cont{
+    height: 50px;
+    width: 50px;
+    background-color: #071E3D;
+    position: fixed;
+    bottom: 8%;
+    right: 5%;
+    border-radius: 50%;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+@media (max-width: 500px){
+    .color-change-cont{
+        
+        bottom: 5%;
+        right: 6%;
+        
+    }
+
+}
+
+.color-icon{
+    width: 50%;
+}
+
+.change-body-light{
+    background-color: #fff !important;
+}
+.change-body-dark{
+   color: #000 !important;
+}
+
+.change-view-black{
+    background: #000 !important;
+}
